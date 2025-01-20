@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+Hello! I'm Sadeeq, a skilled web developer driven by passion. My journey started in 2022 as a freelancer who work remotely for startups and collaborate with brilliant people to deliver digital products that satisfy both business and consumer. I'm a fast learner and love exploration to help bring ideas to life.
+
