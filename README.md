@@ -13,7 +13,7 @@ I'm **Sadeeq**, a skilled web developer driven by passion. My journey started in
 ---
 
 ### 🧰 Languages & Tools
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap,tailwind,php,laravel,python,django,git,linux,vscode,figma" />
 </p>
 
@@ -21,27 +21,30 @@ I'm **Sadeeq**, a skilled web developer driven by passion. My journey started in
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats-dev1ab.vercel.app/api?username=Dev1Ab&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-dev1ab.vercel.app/api?username=Dev1Ab&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dev1Ab&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
 </p>
 
 ---
 
 ### 🧠 Top Languages
 <p align="center">
-  <img src="https://github-readme-stats-dev1ab.vercel.app/api/top-langs/?username=Dev1Ab&count_private=true&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-readme-stats-dev1ab.vercel.app/api/top-langs/?username=Dev1Ab&count_private=true&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 ---
 
-### 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Dev1Ab&theme=tokyonight&column=6&margin-w=10&margin-h=10" alt="GitHub Trophies" />
-</p>
+### 🌱 Currently Exploring
+
+- Advanced React
+- Exploring NextJS  
+- Django REST Framework  
+- Full-stack project deployment and optimisation
 
 ---
 
 ### 📫 Connect With Me
-<p align="left">
+<p align="center">
   <a href="https://linkedin.com/in/abubakar-aminu-886696263" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" width="40" /></a>
   <a href="mailto:sitelive806@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40" /></a>
   <a href="https://dev1ab.github.io/trial/" target="_blank"><img src="https://skillicons.dev/icons?i=react" width="40" /></a>
