@@ -21,7 +21,7 @@ I'm **Sadeeq**, a skilled web developer driven by passion. My journey started in
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats-dev1ab.vercel.app/api?username=Dev1Ab&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&v=1" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats-dev1ab.vercel.app/api?username=Dev1Ab&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&v=3" alt="GitHub Stats" height="165" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dev1Ab&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
 </p>
 
@@ -29,7 +29,7 @@ I'm **Sadeeq**, a skilled web developer driven by passion. My journey started in
 
 ### 🧠 Top Languages
 <p align="center">
-  <img src="https://github-readme-stats-dev1ab.vercel.app/api/top-langs/?username=Dev1Ab&count_private=true&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats-dev1ab.vercel.app/api/top-langs/?username=Dev1Ab&count_private=true&layout=compact&theme=tokyonight&hide_border=true&v=3" alt="Top Languages" />
 </p>
 
 ---
