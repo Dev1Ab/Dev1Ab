@@ -22,7 +22,7 @@ I'm **Sadeeq**, a skilled web developer driven by passion. My journey started in
 ### 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats-dev1ab.vercel.app/api?username=Dev1Ab&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165" />
-  <img src="https://streak-stats.demolab.com?user=Dev1Ab&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=Dev1Ab&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
 </p>
 
 ---
