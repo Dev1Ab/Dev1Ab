@@ -7,6 +7,7 @@ const Home = () => {
   const [profiles, setProfiles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetchProfiles();
@@ -15,10 +16,12 @@ const Home = () => {
   const fetchProfiles = async () => {
     try {
       setLoading(true);
+      setError(null);
       const response = await profileAPI.getAllProfiles();
       setProfiles(response.data.results || response.data);
     } catch (error) {
       console.error('Error fetching profiles:', error);
+      setError('Failed to load profiles. Please try again later.');
     } finally {
       setLoading(false);
     }
@@ -33,10 +36,12 @@ const Home = () => {
     
     try {
       setLoading(true);
+      setError(null);
       const response = await profileAPI.searchProfiles(searchTerm);
       setProfiles(response.data.results || response.data);
     } catch (error) {
       console.error('Error searching profiles:', error);
+      setError('Search failed. Please try again.');
     } finally {
       setLoading(false);
     }
@@ -98,6 +103,16 @@ const Home = () => {
               transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
               className="w-16 h-16 border-4 border-purple-600 border-t-transparent rounded-full"
             />
+          </div>
+        ) : error ? (
+          <div className="text-center text-red-600 py-12">
+            <p className="text-xl">{error}</p>
+            <button 
+              onClick={fetchProfiles}
+              className="mt-4 px-6 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700"
+            >
+              Try Again
+            </button>
           </div>
         ) : profiles.length === 0 ? (
           <div className="text-center text-gray-600 py-12">

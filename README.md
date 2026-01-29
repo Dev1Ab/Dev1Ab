@@ -107,7 +107,13 @@ cd frontend
 npm install
 ```
 
-3. Start the development server:
+3. Create environment file:
+```bash
+cp .env.example .env
+# Edit .env if needed to match your backend URL
+```
+
+4. Start the development server:
 ```bash
 npm run dev
 ```
@@ -158,6 +164,24 @@ npm run dev
 
 ### Building for Production
 
+**Important Security Notes:**
+
+⚠️ **Before deploying to production, you MUST:**
+
+1. **Backend Security:**
+   - Change `SECRET_KEY` to a strong random value stored in environment variables
+   - Set `DEBUG = False`
+   - Configure `ALLOWED_HOSTS` with your specific domains
+   - Replace `CORS_ALLOW_ALL_ORIGINS = True` with specific `CORS_ALLOWED_ORIGINS`
+   - Implement proper authentication (replace `AllowAny` permissions)
+   - Use HTTPS in production
+   - Set up proper database (PostgreSQL/MySQL)
+
+2. **Frontend Security:**
+   - Update `VITE_API_BASE_URL` in `.env` to your production API URL
+   - Enable HTTPS
+   - Configure proper CORS origins
+
 **Frontend:**
 ```bash
 cd frontend
@@ -169,6 +193,7 @@ npm run build
 - Set up a production database (PostgreSQL recommended)
 - Configure static and media file serving
 - Use a production WSGI server like Gunicorn
+- Set up SSL/TLS certificates
 
 ## Contributing
 

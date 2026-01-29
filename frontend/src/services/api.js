@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -34,13 +34,13 @@ export const profileAPI = {
       headers: { 'Content-Type': 'multipart/form-data' }
     });
   },
-  searchProfiles: (searchTerm) => api.get(`/profiles/?search=${searchTerm}`),
+  searchProfiles: (searchTerm) => api.get('/profiles/', { params: { search: searchTerm } }),
 };
 
 export const photoAPI = {
   getAllPhotos: () => api.get('/photos/'),
   getPhoto: (id) => api.get(`/photos/${id}/`),
-  getProfilePhotos: (profileId) => api.get(`/photos/?profile=${profileId}`),
+  getProfilePhotos: (profileId) => api.get('/photos/', { params: { profile: profileId } }),
   createPhoto: (data) => {
     const formData = new FormData();
     Object.keys(data).forEach(key => {
