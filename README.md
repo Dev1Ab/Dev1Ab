@@ -46,9 +46,9 @@ I'm **Sadeeq**, a skilled web developer driven by passion. My journey started in
 
 ### 📫 Connect With Me
 <p align="center">
-  <a href="https://linkedin.com/in/abubakar-aminu-886696263" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" width="40" /></a>
+  <a href="https://linkedin.com/in/abubakar-aminu-muhammad-886696263" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" width="40" /></a>
   <a href="mailto:sitelive806@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40" /></a>
-  <a href="https://dev1ab.github.io/trial/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-%2312100E.svg?&style=for-the-badge&logo=react" /></a>
+  <a href="https://buildwithsadeeq.dev/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-%2312100E.svg?&style=for-the-badge&logo=react" /></a>
 </p>
 
 ---
