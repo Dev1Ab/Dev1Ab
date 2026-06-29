@@ -29,7 +29,7 @@ I'm **Sadeeq**, a skilled web developer driven by passion. My journey started in
 
 ### 🧠 Top Languages
 <p align="center">
-  <img src="https://github-readme-stats-dev1ab.vercel.app/api/top-langs/?username=Dev1Ab&count_private=true&layout=compact&theme=tokyonight&hide_border=true&v=4" alt="Top Languages" />
+  <img src="https://github-readme-stats-dev1ab.vercel.app/api/top-langs/?username=Dev1Ab&count_private=true&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 ---
